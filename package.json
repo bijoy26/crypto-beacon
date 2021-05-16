@@ -1,0 +1,29 @@
+{
+  "name": "crypto-beacon",
+  "version": "1.0.0",
+  "description": "An anonymous, transparent and open news media platform for inclusive communities to view, share and raise voice against unethical, dominating and oppressive social incidents",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.4.0",
+    "lite-server": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "truffle compile",
+    "deploy": "truffle migrate --reset",
+    "deploy:matic": "truffle migrate --network matic",
+    "test": "truffle test",
+    "dev": "lite-server"
+  },
+  "keywords": [
+    "blockchain",
+    "crypto",
+    "ethereum",
+    "polygon"
+  ],
+  "author": "Anjum Rashid",
+  "license": "MIT"
+}

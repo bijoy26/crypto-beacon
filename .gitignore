@@ -1,0 +1,5 @@
+build/
+package-lock.json
+.secret
+node_modules
+src/
