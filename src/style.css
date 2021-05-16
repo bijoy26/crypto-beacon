@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("images/people-2.jpg");
+  background-position: top center;
+  position: relative;
+}
+
+.navbar-brand img {
+  height: 30px;
+}
+
+/* ------------------------------------------------------- */
+/* Home page */
+
+.login-section {
+  padding: 8em 0;
+}
+.login-heading-section {
+  font-size: 28px;
+  color: #fff;
+}
+.login-wrap {
+  position: relative;
+  color: rgba(255, 255, 255, 0.9);
+}
+.login-wrap h3 {
+  font-weight: 300;
+  color: #fff;
+}
+.form-group {
+  margin-bottom: 1rem;
+  position: relative;
+}
+.form-control-custom {
+  background: transparent;
+  height: 50px;
+  color: white !important;
+  border: 0.1px solid transparent;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.form-control-custom:hover {
+  border-color: #fff;
+}
+.form-control-custom:focus {
+  border-color: #fff;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: none;
+}
+.btn-custom {
+  cursor: pointer;
+  border-radius: 40px;
+  height: 50px;
+  box-shadow: none !important;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.btn:hover,
+.btn:active,
+.btn:focus {
+  outline: none;
+}
+#login-successful {
+  color: white;
+  text-align: center;
+  display: none;
+}
+
+/* ------------------------------------------------------- */
+/* Explore */
+.cardcontainer {
+  width: 350px;
+  height: 500px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.3s;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.cardcontainer:hover {
+  box-shadow: 0 0 10px gray;
+  overflow: hidden;
+}
+
+.photo {
+  height: 300px;
+  width: 100%;
+}
+
+.photo img {
+  height: 100%;
+  width: 100%;
+}
+.content {
+  width: 85%;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -33px;
+  overflow: hidden;
+}
+.photos {
+  width: 90px;
+  height: 30px;
+  background-color: #5cb85c;
+  color: white;
+  position: relative;
+  top: -30px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.txt4 {
+  font-size: 27px;
+  position: relative;
+  top: 33px;
+}
+
+.txt5 {
+  position: relative;
+  top: 18px;
+  color: #5cb85c;
+  font-size: 23px;
+}
+
+.txt2 {
+  position: relative;
+  top: 10px;
+}
+
+.cardcontainer:hover > .photo {
+  height: 200px;
+  animation: move1 0.5s ease both;
+  overflow: hidden;
+}
+
+@keyframes move1 {
+  0% {
+    height: 300px;
+  }
+
+  100% {
+    height: 200px;
+  }
+}
+
+.cardcontainer:hover > .content {
+  height: 200px;
+  overflow: hidden;
+}
+
+.footer {
+  width: 80%;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  position: relative;
+  top: -15px;
+}
+
+.btn-custom-2 {
+  position: relative;
+  top: 20px;
+}
+
+#heart {
+  cursor: pointer;
+}
+
+.like {
+  float: right;
+  font-size: 22px;
+  position: relative;
+  top: 20px;
+  color: #333333;
+}
+
+.fa-gratipay {
+  margin-right: 10px;
+  transition: 0.5s;
+}
+
+.fa-gratipay:hover {
+  color: #5cb85c;
+}
+
+.txt3 {
+  color: gray;
+  position: relative;
+  top: 18px;
+  font-size: 14px;
+}
+
+.comments {
+  float: right;
+  cursor: pointer;
+}
+
+.fa-clock,
+.fa-comments {
+  margin-right: 7px;
+}
+*/
+
+/* ------------------------------------------------------- */
+/* About us page */
+
+.card-custom {
+  overflow: hidden;
+}
+
+.card-style {
+  border: none;
+  border-radius: 20px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+.about-us-border-rad img {
+  border-radius: 20px;
+}
+.about-us-title-font {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+/* Media Queries */
+/* xm */
+@media (max-width: 575.98px) {
+  .about-us-section-style {
+    width: 22rem;
+  }
+  .about-us-border-rad img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card-body h5,
+  .card-body p {
+    margin-top: 0.8rem;
+    text-align: center;
+  }
+  .social-media-style {
+    align-items: center;
+    justify-content: center;
+  }
+  .input-ref-image {
+    width: 35%;
+  }
+}
+/* sm */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .about-us-section-style {
+    width: 26rem;
+  }
+  .about-us-border-rad img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card-body h5,
+  .card-body p {
+    margin-top: 0.8rem;
+    text-align: center;
+  }
+  .social-media-style {
+    align-items: center;
+    justify-content: center;
+  }
+  .input-ref-image {
+    width: 35%;
+  }
+}
+/* md */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .about-us-section-style {
+    width: 42rem;
+  }
+  .about-us-border-rad img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .padding-left {
+    padding-left: 2.4rem;
+  }
+  .card-body h5,
+  .card-body p {
+    margin-top: 0.8rem;
+  }
+  .input-ref-image {
+    width: 35%;
+  }
+}
+/* l */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .about-us-section-style {
+    width: 48rem;
+  }
+  .input-ref-image {
+    width: 25%;
+  }
+}
+/* xl */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .about-us-section-style {
+    width: 52rem;
+  }
+  .input-ref-image {
+    width: 25%;
+  }
+}
+/* xxl */
+@media (min-width: 1400px) {
+  .about-us-section-style {
+    width: 52rem;
+  }
+  .input-ref-image {
+    width: 25%;
+  }
+}
