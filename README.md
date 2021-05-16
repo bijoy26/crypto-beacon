@@ -9,6 +9,17 @@ Cause decentralized ideas are bulletproof 💡
 
 _This PoC is developed as a solution for the MLH Neighborhood Hackathon (14-16 May 2021_)
 
+## PoC Progress for MVP
+- [X] Develop a smart contract with basic functionalities 
+- [X] Setup Dev environment and test locally
+- [X] Deploy on Polygon Mumbai Testnet ( Deployed Contract Here) 
+- [X] Working Web3
+- [X] Set up initial front-end structure
+- [ ] Build working Web3 for Front-end structure 
+- [ ] Connect Web3 with Deployed contract 
+- [ ] Set up and integrate IPFS
+- [ ] Deploy Dapp Frontend on netlify   
+
 ## Overview
 
 ElectroCrypt is a voting platform that augments prevalent blockchain powered _e-voting_ systems with the integration of cloud technology, in order to provide strong security, flexible ballot casting, attack mitigation, and public auditing for transparency.
