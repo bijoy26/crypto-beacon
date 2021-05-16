@@ -1,8 +1,9 @@
-# 
+#
+
 Cause decentralized ideas are bulletproof 💡
 
 <p align="center">
-<img src="#" /><br></p>
+<img src="./assets/banner.png" /><br></p>
 
 # CryptoBeacon - Annonymous and transparent decentralized platform for inclusive communities
 
@@ -18,7 +19,6 @@ ElectroCrypt's two main objectives are:
 - Amplify community rights
 
 ## Architecture
-
 
 <ProjectName> leverages the advantages of [Polygon Network](https://matic.network), which is a blockchain decentralized application platform that provides hybrid _proof-of-stake_ and _plasma-enabled_ sidechains.
 
