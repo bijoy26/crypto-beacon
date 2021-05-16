@@ -28,7 +28,7 @@ CryptoBeacon's two main objectives are:
 
 ## Architecture
 
-<ProjectName> leverages the advantages of [Polygon Network](https://matic.network), which is a blockchain decentralized application platform that provides hybrid _proof-of-stake_ and _plasma-enabled_ sidechains.
+CryptoBeacon leverages the advantages of [Polygon Network](https://matic.network), which is a blockchain decentralized application platform that provides hybrid _proof-of-stake_ and _plasma-enabled_ sidechains.
 
 The system creates a bridge between distributed file storage system powered by **IPFS (Inter Planetary File System)**.
 
